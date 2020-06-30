@@ -30,8 +30,13 @@ As the current data from the file cannot be directly fed into the network we :
 # Results
 We can see that the model prediction is good, resulting in low loss or sum of the errors made for each example in both, training and validation by resulting a ***train accuracy of 95.72% and a validation accuracy of 92.22%***.
 
-<div align=center><img width="600" src="./images/loss_valtrain.PNG"/></div>
+Loss on train and validation
+<div align=center><img width="400" src="./images/loss_valtrain.png"/></div>
 
+Accuracy on train and validation
+<div align=center><img width="350" src="./images/acc_valtrain.png"/></div>
+
+Final accuracy
 <div align=center><img width="350" src="./images/acc.PNG"/></div>
 
 
