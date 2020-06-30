@@ -23,10 +23,20 @@ As the current data from the file cannot be directly fed into the network we :
 4) split data into 80% training, 10% validation and 10% testing;
 5) created a new embedding dictionary based on wiki.en.vec and and built up the embedding matrix for out model;
 6) added the LSTM model:
-<div align=center><img width="250" src="./images/model.PNG"/></div>
+<div align=center><img width="850" src="./images/model.PNG"/></div>
+
 7) compiled and train the model
 
+# Results
+We can see that the model prediction is good, resulting in low loss or sum of the errors made for each example in both, training and validation by resulting a ***train accuracy of 95.72% and a validation accuracy of 92.22%***.
 
+<div align=center><img width="600" src="./images/loss_valtrain.PNG"/></div>
+
+<div align=center><img width="350" src="./images/acc.PNG"/></div>
+
+
+# Conclusion
+Working with LSTM RNN models with word embedding initializations, toxic comments can be classified from the clean comments and for boosting the accuracy we need to make sure that we generate accurate predictions on the training set.
 
 
  
