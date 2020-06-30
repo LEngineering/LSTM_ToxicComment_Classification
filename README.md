@@ -1,5 +1,6 @@
 # LSTM_ToxicComment_Classification
   Natural Language Processing
+  Disclamer: This document contains examples of profain language that includes "toxic" words.
 
 This topic refers to classify the comments such as in forums which some times may be abusive or insulting and we call them "toxic comments".
 By identifing and filtering the negative conversations we can build a model which could make prediction to classify the comments either being "toxic" or "non-toxic" such as the below comments:
