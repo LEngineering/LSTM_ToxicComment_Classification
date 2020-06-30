@@ -1,1 +1,32 @@
 # LSTM_ToxicComment_Classification
+  Natural Language Processing
+
+This topic refers to classify the comments such as in forums which some times may be abusive or insulting and we call them "toxic comments".
+By identifing and filtering the negative conversations we can build a model which could make prediction to classify the comments either being "toxic" or "non-toxic" such as the below comments:
+
+***1) toxic comment 1 - "Stupid piece of shit stop deleting my stuff asshole go die and fall in a hole go to hell! "***
+
+***2) non-toxic comment 0 - "They are NOT original research, they are pointed in the episodes."***
+
+The training data was taken from [Kaggle](https://www.kaggle.com/c/jigsaw-multilingual-toxic-comment-classification/data) and was split into 80% of the data for training, 10% for test and 10% for validation.
+
+# Dataset
+
+Before training and evaluating the model we need to:
+   - Prepare the data
+   - Implement the LSTM (RNN) model
+
+As the current data from the file cannot be directly fed into the network we :
+1) first pre-processed it by removing the punctuation, stop-words,lowercasing and stemming words (such as reverted->revert);
+2) split data only for 'toxic comment' and its label;
+3) converted text data into token vector, fit on text, converted into a list of integers, mapped the indexes to words and found the maximum length for padding;
+4) split data into 80% training, 10% validation and 10% testing;
+5) created a new embedding dictionary based on wiki.en.vec and and built up the embedding matrix for out model;
+6) added the LSTM model:
+<div align=center><img width="250" src="./images/model.PNG"/></div>
+7) compiled and train the model
+
+
+
+
+ 
