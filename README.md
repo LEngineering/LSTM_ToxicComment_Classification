@@ -45,5 +45,7 @@ Final accuracy
 # Conclusion
 Working with LSTM RNN models with word embedding initializations, toxic comments can be classified from the clean comments and for boosting the accuracy we need to make sure that we generate accurate predictions on the training set.
 
-
+This work was conducted by:
+Cristina Manoila
+Alexe Ciurea
  
