@@ -7,7 +7,6 @@ Created on Fri Jun 26 11:13:50 2020
 
 import pandas as pd
 import numpy as np
-#from textblob import TextBlob
 from pandas import DataFrame
 import os,sys
 from keras.preprocessing.text import Tokenizer
@@ -26,7 +25,7 @@ from nltk.stem.snowball import SnowballStemmer
 import matplotlib.pyplot as plt
 
 #Define the train path and split into input and output
-files_path = "/Users/crist/Documents/PYTHON/Kagglerec/"
+files_path = ".../Users/crist/Documents/.../" # use your path
 train_dr=pd.read_csv("jigsaw-toxic-comment-train.csv")
 
 
