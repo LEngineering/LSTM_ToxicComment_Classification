@@ -23,7 +23,7 @@ As the current data from the file cannot be directly fed into the network we :
 2) split data only for 'toxic comment' and its label;
 3) converted text data into token vector, fit on text, converted into a list of integers, mapped the indexes to words and found the maximum length for padding;
 4) split data into 80% training, 10% validation and 10% testing;
-5) created a new embedding dictionary based on wiki.en.vec and and built up the embedding matrix for out model;
+5) created a new embedding dictionary based on wiki.en.vec and built up the embedding matrix for out model;
 6) added the LSTM model:
 <div align=center><img width="850" src="./images/model.PNG"/></div>
 
